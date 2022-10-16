@@ -53,13 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     setTimeout(() => {
                         showPopup('win')
 
-                    }, 1000)
+                    }, 500)
 
                 }
                 if (id === 2) {
                     setTimeout(() => {
                         showPopup('lose')
-                    }, 1000)
+                    }, 500)
 
                 }
             }
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (l === 0) {
                     setTimeout(() => {
                         showPopup('tie')
-                    }, 1000)
+                    }, 500)
                 }
             }
         })
